@@ -30,7 +30,7 @@ const ChangeAva = () => {
                 },
             })
             .then((response) => {
-                console.log(response.data);
+                console.log("sukses", response.data);
                 setImageTes(null);
                 setPicture([]);
             })
